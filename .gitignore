@@ -1,0 +1,19 @@
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Ignore local vim session files
+Session.vim
+.netrwhist
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Tags
+/tags
+.tags
