@@ -30,7 +30,7 @@ syntax keyword ampStorage var set contained
 syntax keyword ampLogic and or not contained
 
 " Variables
-syntax match ampVariable /\@[a-zA-Z0-9_]\+/ contained
+syntax match ampVariable /\v\@[a-zA-Z0-9_]+/ contained
 syntax match ampVariable /\[[a-zA-Z0-9_]\+\]/ contained
 
 " Operators

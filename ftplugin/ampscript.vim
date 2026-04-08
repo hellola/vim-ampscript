@@ -17,10 +17,10 @@ setlocal formatoptions+=croql
 setlocal autoindent
 setlocal smartindent
 
-" Match pairs specific to AMPscript
-setlocal matchpairs+=%%[:]
+" Note: AMPscript uses multi-character delimiters (%%[ ]%%)
+" which cannot be added to matchpairs (single chars only)
 
 " Define keywords for navigation
 setlocal iskeyword+=@-@
 
-let b:undo_ftplugin = "setlocal comments< formatoptions< matchpairs< iskeyword<"
+let b:undo_ftplugin = "setlocal comments< formatoptions< iskeyword<"
