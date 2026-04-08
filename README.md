@@ -20,7 +20,7 @@ AMPscript language support for Vim and Neovim. Provides syntax highlighting, ind
 ```lua
 -- In your lazy.nvim configuration (e.g., lua/plugins/ampscript.lua)
 return {
-  'yourusername/vim-ampscript',
+  'hellola/vim-ampscript',
   ft = { 'ampscript' },
   config = function()
     -- Optional: custom configuration
@@ -33,7 +33,7 @@ Or inline in your main config:
 
 ```lua
 require('lazy').setup({
-  'yourusername/vim-ampscript',
+  'hellola/vim-ampscript',
   ft = 'ampscript',
 })
 ```
@@ -42,7 +42,7 @@ require('lazy').setup({
 
 ```lua
 use {
-  'yourusername/vim-ampscript',
+  'hellola/vim-ampscript',
   ft = { 'ampscript' }
 }
 ```
@@ -51,7 +51,7 @@ use {
 
 ```vim
 " In your .vimrc or init.vim
-Plug 'yourusername/vim-ampscript'
+Plug 'hellola/vim-ampscript'
 ```
 
 Then run:
@@ -62,13 +62,13 @@ Then run:
 ### Using [dein.vim](https://github.com/Shougo/dein.vim)
 
 ```vim
-call dein#add('yourusername/vim-ampscript')
+call dein#add('hellola/vim-ampscript')
 ```
 
 ### Using [minpac](https://github.com/k-takata/minpac)
 
 ```vim
-call minpac#add('yourusername/vim-ampscript')
+call minpac#add('hellola/vim-ampscript')
 ```
 
 ### Manual Installation
@@ -76,13 +76,13 @@ call minpac#add('yourusername/vim-ampscript')
 For Vim:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vim-ampscript.git ~/.vim/pack/plugins/start/vim-ampscript
+git clone https://github.com/hellola/vim-ampscript.git ~/.vim/pack/plugins/start/vim-ampscript
 ```
 
 For Neovim:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vim-ampscript.git ~/.config/nvim/pack/plugins/start/vim-ampscript
+git clone https://github.com/hellola/vim-ampscript.git ~/.config/nvim/pack/plugins/start/vim-ampscript
 ```
 
 ## Usage
